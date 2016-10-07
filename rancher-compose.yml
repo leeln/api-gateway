@@ -1,2 +1,2 @@
-apiGate:
+apiGateway:
   scale: 2
