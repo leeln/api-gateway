@@ -1,0 +1,2 @@
+apiGate:
+  image: docker.repo.leeln.com/leeln/api-gateway
