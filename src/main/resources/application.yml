@@ -11,6 +11,6 @@
 #
 zuul:
   routes:
-    user-center: /orders/**
-    order-center: /users/**
+    user-center: /users/**
+    order-center: /orders/**
 
