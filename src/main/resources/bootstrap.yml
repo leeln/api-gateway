@@ -1,3 +1,16 @@
 spring:
   application:
     name: api-gateway
+  cloud:
+      config:
+        uri: http://config.leeln.com
+
+eureka:
+  instance:
+    hostname: eureka.leeln.com
+    nonSecurePort: 80
+  client:
+    serviceUrl:
+      defaultZone: http://eureka.leeln.com/eureka/
+    fetchRegistry: true
+    registerWithEureka: true
