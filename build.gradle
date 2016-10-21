@@ -35,6 +35,7 @@ dependencies {
 			'org.springframework.boot:spring-boot-starter-web',
 			'org.springframework.cloud:spring-cloud-starter-hystrix',
 			'org.springframework.cloud:spring-cloud-starter-config',
+			'org.springframework.boot:spring-boot-starter-actuator',
 			'org.springframework.cloud:spring-cloud-starter-zuul'
 
 	testCompile 'org.springframework.boot:spring-boot-starter-test'
